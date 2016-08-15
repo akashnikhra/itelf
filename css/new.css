@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'Conv_myfont';
+	src: url('myfont.eot');
+	src: local('☺'), url('myfont.woff') format('woff'), url('myfont.ttf') format('truetype'), url('myfont.svg') format('svg');
+}
+
+.main-nav.transparent{
+	height: 100px;
+}
+
+.itelflogo{
+	width: 100px;
+	height: 70px;
+	opacity: 0.7;
+	-o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
+}
+
+.itelflogo:hover{
+	opacity: 1;
+}
+
+.scitlogo{
+	width: 400px;
+	height: 120px;
+}
+
+.main{
+	margin-top: 50px;
+}
+
+.sprouit{
+	text-align: center;
+}
+
+.lauch{
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	font-family:'Conv_myfont',Sans-Serif;
+}
+
+.lauch1{
+	color: #fff;
+	font-size: 2em;
+	font-family:'Conv_myfont',Sans-Serif;
+}
+
+.countdown > li{
+	margin: 0px;
+}
+
+.countdown-number .font-alt{
+	font-family:'Conv_myfont',Sans-Serif;
+}
+
+.about{
+	background: rgba(10,10,10,0.9);
+	color: #fff;
+	/*height: 800px;*/
+}
+
+.about_itelf{
+	/*margin-top: -50px;*/
+}
+
+.title_logo{
+	width: 300px;
+	height: 100px;
+}
+
+.quote > blockquote{
+	color: #fff;
+	font-family: 'Indie Flower', cursive;
+}
+
+.about_1{
+	color: #021f3d;
+}
+
+.quote_1 > blockquote,
+.author{
+	color: #fff;
+	font-family: 'Indie Flower', cursive;
+}
+
+.text_itelf{
+	color: #fff;
+}
+
+.footer{
+	background-color: #ecf0f1;
+}
+
+.title_foot{
+	margin-top: -80px;
+}
+
+.foot_logo{
+	width: 300px;
+	height: 200px;
+	margin-top: -120px;
+}
+
+.footer-social-links .fb{
+	color: #3b5998;
+}
+
+.footer-social-links .bird{
+	color: #4099FF;
+}
+
+.footer-social-links .you{
+	color: #c4302b;
+}
+
+@media only screen and (max-width: 700px){
+
+	.down{
+		display: none;
+	}
+
+	.title_logo{
+		width: 250px;
+		height: 150px;
+		margin-top: -50px;
+	}
+
+	.title_foot{
+		margin-top: -40px;
+	}
+
+	.foot_logo{
+		width: 200px;
+		height: 75px;
+		margin-top: -40px;
+	}
+}
+
+@media only screen and (max-width: 450px){
+
+	.title_logo{
+		width: 200px;
+		height: 100px;
+	}
+
+	.foot_logo{
+		width: 200px;
+		height: 100px;
+		margin-top: -70px;
+	}
+
+	.title_foot{
+		margin-top: -50px;
+	}
+}
