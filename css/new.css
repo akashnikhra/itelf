@@ -4,6 +4,8 @@
 	src: local('☺'), url('myfont.woff') format('woff'), url('myfont.ttf') format('truetype'), url('myfont.svg') format('svg');
 }
 
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 .main-nav.transparent{
 	height: 100px;
 }
@@ -59,13 +61,12 @@
 }
 
 .about{
-	background: rgba(10,10,10,0.9);
 	color: #fff;
 	/*height: 800px;*/
 }
 
 .about_itelf{
-	/*margin-top: -50px;*/
+	margin-top: -50px;
 }
 
 .title_logo{
@@ -76,6 +77,16 @@
 .quote > blockquote{
 	color: #fff;
 	font-family: 'Indie Flower', cursive;
+}
+
+.section-text{
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Pacifico', cursive;
+}
+
+blockquote footer{
+	color: #fff;
 }
 
 .about_1{
@@ -90,6 +101,33 @@
 
 .text_itelf{
 	color: #fff;
+}
+
+.social{
+	background: #3b5998;
+}
+
+.social_link{
+	color: #fff;
+}
+
+.social_link:hover,
+.social_link:active{
+	color: #fff;
+}
+
+.fa-facebook-official{
+	opacity: 0.6;
+	-o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
+}
+
+.fa-facebook-official:hover{
+	opacity: 1;
 }
 
 .footer{
@@ -124,10 +162,13 @@
 		display: none;
 	}
 
+	.about_itelf{
+		margin-top: -30px;
+	}
+
 	.title_logo{
 		width: 250px;
 		height: 150px;
-		margin-top: -50px;
 	}
 
 	.title_foot{
