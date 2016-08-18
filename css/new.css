@@ -167,10 +167,13 @@
 .countdown-number .font-alt{
 }
 
+.about_section{
+	margin-top: -20px;
+}
+
 .about{
 	color: #fff;
 	font-size: 4em;
-	letter-spacing: 50px;
 	/*height: 800px;*/
 }
 
