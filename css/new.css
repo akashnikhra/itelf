@@ -169,6 +169,8 @@
 
 .about{
 	color: #fff;
+	font-size: 4em;
+	letter-spacing: 50px;
 	/*height: 800px;*/
 }
 
@@ -204,6 +206,7 @@ blockquote p{
 .section-text{
 	color: #fff;
 	font-size: 16px;
+	text-align: justify;
 	font-family: 'Pacifico', cursive;
 }
 
@@ -235,11 +238,13 @@ blockquote footer{
 
 .social_link{
 	color: #fff;
+	text-decoration: none;
 }
 
 .social_link:hover,
 .social_link:active{
 	color: #fff;
+	text-decoration: none;
 }
 
 .fa-facebook-official{
