@@ -12,6 +12,61 @@
 
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
+/* loader page */
+
+.preloader {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  border: 0.4rem solid #000000;
+  opacity: 0.75;
+  border-radius: 100%;
+}
+.preloader:before,
+.preloader:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -0.2rem 0 0 -0.2rem;
+  border-bottom: 0.4rem solid #000000;
+  opacity: 0.75;
+  border-radius: 0.6rem;
+  -webkit-transform-origin: 0.2rem center;
+}
+.preloader:before {
+/* hour hand */
+  width: 30%;
+  -webkit-animation: hour 10s linear infinite;
+}
+.preloader:after {
+/* minute hand */
+  width: 40%;
+  background-color: #2085e6;
+  -webkit-animation: minute 1s linear infinite;
+}
+@-webkit-keyframes hour {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes minute {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+/* for demo purposes only — not required */
+.preloader {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+/* ======================================================= */
+
 
 
 .main-nav.transparent{
