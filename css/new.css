@@ -4,6 +4,12 @@
 	src: local('☺'), url('myfont.woff') format('woff'), url('myfont.ttf') format('truetype'), url('myfont.svg') format('svg');
 }
 
+@font-face{
+	font-family: 'Bazar';
+	src: url('Bazar.eot');
+	src: local('☺'), url('Bazar.woff') format('woff'), url('Bazar.ttf') format('truetype'), url('Bazar.svg') format('svg');
+}
+
 @font-face {
 	font-family: 'Starcraft Normal';
 	src: url('Starcraft Normal.eot');
@@ -313,6 +319,64 @@ blockquote footer{
 	color: #000;
 	font-family: Dosis, arial, sans-serif;
 }
+
+.area{
+	font-size: 2em;
+ animation:myfirst 5s linear infinite;
+-moz-animation:myfirst 5s linear infinite; /* Firefox */
+-webkit-animation:myfirst 5s linear infinite; /* Safari and Chrome */
+-o-animation:myfirst 5s linear infinite; /* Opera */	
+}
+
+.area_a{
+	font-size: 2em;
+ animation:myfirst 5s linear infinite;
+-moz-animation:myfirst 5s linear infinite; /* Firefox */
+-webkit-animation:myfirst 5s linear infinite; /* Safari and Chrome */
+-o-animation:myfirst 5s linear infinite; /* Opera */
+}
+
+@keyframes myfirst
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
+
+.event_section{
+	font-size: 2em;
+	font-family: Bazar;
+}
+
+.event_title{
+	font-family: Bazar;
+}
+
 
 
 @media only screen and (max-width: 700px){
