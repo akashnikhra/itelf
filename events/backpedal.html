@@ -161,8 +161,9 @@
                                 </div>
 
                                 <div class="mt-40">
-                                        <a href="#" class="btn btn-mod btn-border btn-round btn-medium" target="_blank">Registration</a>
+                                        <a onclick='myRegistration()' class="btn btn-mod btn-border btn-round btn-medium">Registration</a>
                                 </div>
+                                
                                 
                                 <p>
                                     <h4 class="mt-0 font-alt">Description:</h4> It is a reverse video uploading event in which the participants will be judged on the basis of the video they send that is reverse in order. This event will help the participants to substantiate their:-
@@ -188,7 +189,7 @@
                                 <h4 class="mt-0 font-alt">How To Register:</h4>
                                 <p>
                                     <ul>
-                                        <li>Register <a href="#">Here</a></li>
+                                        <li>Register <a onclick='myRegistration()'>Here</a></li>
                                         <li>Only 1 entry allowed per person.</li>
                                         <li>In your entries, you need to mention your Name, Mobile Numbers, E-Mail Address, and Organization/College/University.</li>
                                         <li>The subject of the mail should only be as per the below format specified:<br><strong>"Marvels_ParticipantName_College/Organisation/University_Name".</strong></li>
@@ -318,7 +319,13 @@
         <script type="text/javascript" src="../js/jquery.downCount.js"></script>        
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
         <script type="text/javascript">
-            $('#myModal').on('shown.bs.modal', function () {
-                $('#myInput').focus()
-            });
+            function myRegistration(){
+                var x = screen.width;
+
+                if(x < 800){
+                    window.location = "https://docs.google.com/a/associates.scit.edu/forms/d/e/1FAIpQLSeBLTMY8V5_ClZxhsx90z6prLTEbboh4GHkoIQ6TNRJrSiDMQ/viewform?embedded=true";
+                }else{
+                    window.location= "../registration.html";
+                }
+            }
         </script>

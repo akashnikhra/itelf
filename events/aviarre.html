@@ -155,6 +155,11 @@
                                 <div class="hs-line-4 font-alt">
                                     Be the master of your own universe!
                                 </div>
+
+                                <div class="mt-40">
+                                        <a onclick='myRegistration()' class="btn btn-mod btn-border btn-round btn-medium">Registration</a>
+                                </div>
+                                
                                 
                                 <p>
                                     <h4 class="mt-0 font-alt">Description:</h4> In this dynamic world of Business, each day brings to us a new challenge. Your decisions and breakthrough can actually change the future of the company you are associated with. The pressure situations in which the industry experts are required to resolve the problems, to maintain your rationality can be a great challenge in itself. The best way you can make yourself ready for this phase is by participating in challenging Case Study Competitions that is actually faced by a start-up. Aviarre is about evaluating and solving the problems that are critical to answer for an entrepreneur or business person at a certain stage. These competitions guarantees to provide a real world entrepreneurship/management experience and tests your skills over a really challenging case to solve. 
@@ -201,7 +206,7 @@
                                 <h4 class="mt-0 font-alt">How To Register:</h4>
                                 <p>
                                     <ul>
-                                        <li>Register <a href="#">Here</a></li>
+                                        <li>Register <strong><a onclick="myRegistration()">Here</a></strong></li>
                                         <li>Only 1 entry allowed per person.</li>
                                         <li>In your entries, you need to mention your Name, Mobile Numbers, E-Mail Address, and Organization/College/University.</li>
                                         <li>The subject of the mail should only be as per the below format specified:<br><strong>"Marvels_ParticipantName_College/Organisation/University_Name".</strong></li>
@@ -331,7 +336,13 @@
         <script type="text/javascript" src="../js/jquery.downCount.js"></script>        
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
         <script type="text/javascript">
-            $('#myModal').on('shown.bs.modal', function () {
-                $('#myInput').focus()
-            });
+            function myRegistration(){
+                var x = screen.width;
+
+                if(x < 800){
+                    window.location = "https://docs.google.com/a/associates.scit.edu/forms/d/e/1FAIpQLSeBLTMY8V5_ClZxhsx90z6prLTEbboh4GHkoIQ6TNRJrSiDMQ/viewform?embedded=true";
+                }else{
+                    window.location= "../registration.html";
+                }
+            }
         </script>
