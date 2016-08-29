@@ -106,38 +106,6 @@
 .sprout_it{
 	width: 500px;
 	padding-bottom: 0px;
-	-webkit-animation: logo linear  1s infinite; /* Safari 4+ */
-    -moz-animation:    logo linear  1s infinite; /* Fx 5+ */
-    -o-animation:      logo linear  1s infinite; /* Opera 12+ */
-    animation:         logo linear  1s infinite; /* IE 10+, Fx 29+ */
-}
-
-.sprout_it:hover{
-	-webkit-animation: none; /* Safari 4+ */
-    -moz-animation:    none; /* Fx 5+ */
-    -o-animation:      none; /* Opera 12+ */
-    animation:         none; /* IE 10+, Fx 29+ */
-}
-
-@-webkit-keyframes logo {
-  0% {opacity: 1;}
-  50% {opacity: .1;}
-  100%{opacity: 1;}
-}
-@-moz-keyframes logo {
-  0% {opacity: 1;}
-  50% {opacity: .1;}
-  100%{opacity: 1;}
-}
-@-o-keyframes logo {
-  0% {opacity: 1;}
-  50% {opacity: .1;}
-  100%{opacity: 1;}
-}
-@keyframes logo {
-  0% {opacity: 1;}
-  50% {opacity: .1;}
-  100%{opacity: 1;}
 }
 
 .zeit_logo{
@@ -385,8 +353,13 @@ blockquote footer{
 	font-family: Bazar;
 }
 
+.page_tagline{
+	background-color: rgba(0,0,0,0.75);
+}
 
-
+.google_form{
+	color: #fff;
+}
 @media only screen and (max-width: 700px){
 
 	.head{
@@ -435,6 +408,13 @@ blockquote footer{
 
 	.flag{
 		margin-top: 50px;
+	}
+
+	.area{
+		padding-left: 40px;
+	}
+	.area_a{
+		padding-left: 20px;
 	}
 }
 
