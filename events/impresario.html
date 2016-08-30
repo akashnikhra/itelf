@@ -322,7 +322,13 @@
         <script type="text/javascript" src="../js/jquery.downCount.js"></script>        
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
         <script type="text/javascript">
-            $('#myModal').on('shown.bs.modal', function () {
-                $('#myInput').focus()
-            });
+            function myRegistration(){
+                var x = screen.width;
+
+                if(x < 800){
+                    window.open("https://docs.google.com/a/associates.scit.edu/forms/d/e/1FAIpQLSeBLTMY8V5_ClZxhsx90z6prLTEbboh4GHkoIQ6TNRJrSiDMQ/viewform?embedded=true");
+                }else{
+                    window.open("../registration.html");
+                }
+            }
         </script>
