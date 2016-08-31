@@ -290,60 +290,25 @@ blockquote footer{
 	font-family: Dosis, arial, sans-serif;
 }
 
+.marvel{
+	color: white;
+}
+
 .area{
  font-family: 'Audiowide', cursive;
  font-size: 2em;
- border: 10px solid;
- padding-left: 70px;
- animation:myfirst 5s linear infinite;
--moz-animation:myfirst 5s linear infinite; /* Firefox */
--webkit-animation:myfirst 5s linear infinite; /* Safari and Chrome */
--o-animation:myfirst 5s linear infinite; /* Opera */	
+ color: white;
+}
+
+.aviarre{
+	color: white;
 }
 
 .area_a{
 	font-family: 'Audiowide', cursive;
 	font-size: 2em;
-	 border: 10px solid;
- padding-left: 45px;
- animation:myfirst 5s linear infinite;
--moz-animation:myfirst 5s linear infinite; /* Firefox */
--webkit-animation:myfirst 5s linear infinite; /* Safari and Chrome */
--o-animation:myfirst 5s linear infinite; /* Opera */
+	color: white;
 }
-
-@keyframes myfirst
-{
-0%   {color:red;}
-25%  {color:yellow;}
-50%  {color:blue;}
-100% {color:green;}
-}
-
-@-moz-keyframes myfirst /* Firefox */
-{
-0%   {color:red;}
-25%  {color:yellow;}
-50%  {color:blue;}
-100% {color:green;}
-}
-
-@-webkit-keyframes myfirst /* Safari and Chrome */
-{
-0%   {color:red;}
-25%  {color:yellow;}
-50%  {color:blue;}
-100% {color:green;}
-}
-
-@-o-keyframes myfirst /* Opera */
-{
-0%   {color:red;}
-25%  {color:yellow;}
-50%  {color:blue;}
-100% {color:green;}
-}
-
 .event_section{
 	font-size: 2em;
 	font-family: Bazar;
