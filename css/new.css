@@ -298,6 +298,7 @@ blockquote footer{
  font-family: 'Audiowide', cursive;
  font-size: 2em;
  color: white;
+ letter-spacing: 50px;
 }
 
 .aviarre{
@@ -308,6 +309,7 @@ blockquote footer{
 	font-family: 'Audiowide', cursive;
 	font-size: 2em;
 	color: white;
+	letter-spacing: 50px;
 }
 .event_section{
 	font-size: 2em;
